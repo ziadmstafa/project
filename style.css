@@ -55,6 +55,7 @@ section {
     color: var(--text--color);
     margin-left: 4rem;
     transition:  .3s ease;
+    font-weight: 700;
 }
 .nav a:hover, .nav a.active {
     color : var(--mian--color);
@@ -126,7 +127,7 @@ span {
     border: 2rem, solid var(--mian--color)  ;
     border-radius: 50%;
     font-size: 2rem;
-    color: var(--mian--color);
+    color: #fff;
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
 }
