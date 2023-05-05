@@ -19,6 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;500;700&display=swap");
       body {
@@ -28,13 +29,13 @@
   </head>
   <body>
     <!-- <strt header>  -->
-    <header class="header">
+    <header class="header" style="position: fixed;">
       <i class="bx bx-menu bx-rotate-180" id="meun"></i>
       <div class="font-bold text-3xl">
         <nav class="nav">
           <a href="#home" class="active">الرئيسية</a>
           <a href="#about">نبذه عنا</a>
-          <a href="#services">لماذاً نحن </a>
+          <a href="#services">لماذاً نحن  </a>
           <a href="#services"> خدماتنا </a>
           <a href="#Protofolio">شركاءنا</a>
           <a href="#content">اتصل بنا</a>
@@ -83,13 +84,14 @@
     <div class="bb">
       <section class="about" id="about">
         <div class="about-content">
-          <h2 class="hedeng">نبذه <span>عنا</span></h2>
+          <h2 class="hedeng">نبذه عنا</h2>
           <h3> </h3>
-          <p>
+          <p class="">
             نحن نتتبع جميع الأمور المتعلقة بالشحنات الواردة والاستلام والتسليم
-            في وقت محدد للعميل بشكل يحقق أهداف المؤسسة وبما يتوافق مع الميزانيات
-            الموضوعة والتأكد من التزام العاملين في قسم التوزيع والتخزين بقواعد
-            الأمن والسلامة تعيين وتوظيف وتدريب موظفي الخدمات اللوجستية الجدد
+في وقت محدد للعميل بشكل يحقق أهداف المؤسسة وبما يتوافق مع الميزانيات
+الموضوعة والتأكد من التزام العاملين في قسم التوزيع والتخزين بقواعد
+الأمن والسلامة تعيين وتوظيف وتدريب موظفي الخدمات اللوجستية الجدد
+
           </p>
           
         </div>
@@ -102,7 +104,7 @@
 
 
       <!-- <start services> -->
-    <div class="gg overflow-auto">
+    <div class="gg">
       <section class="services" id="services">
         <h2 class="hedeng">خدماتنا<h2>
         <div class="services-contenr">
@@ -124,13 +126,13 @@
     </div>
     <!-- <end services> -->
        <!-- <start services> -->
-    <div class="gg overflow-auto">
+    <div class="gg">
       <section class="services" id="services1">
         <h2 class="hedeng">لماذاً نحن <h2>
         <div class="services-contenr">
           <div class="services-boix">
             <i class="fa-solid fa-users-line"></i>
-            <h3>لماذاً نحن </h3>
+            <h3>  </h3>
             <p> نحن نعمل في مجال توفير الخدمات اللوجستية وفق معايير وجودة عالية وفق تطلعات العميل
 
               وسرعة الاستجابة لهم</p>
@@ -142,35 +144,38 @@
       </section>
     </div>
       <!-- <start Protofolio> -->
-    <div class="ff overflow-auto">
-      <section class="Protofolio" id="Protofolio">
-        <h2 class="hedeng">شركا<span>ءنا</span></h2>
-        <div class="Protofolio-contenr">
-          <div class="Protofolio-box">
-            <img class="bj" src="Mrsool-01.svg" alt="" />
-            <div class="Protofolio-layer">
-              <h4>مرسول</h4>
+    <div class="ff">
+      <section class="Protofolio">
+        <h2 class="hedeng">شركاءنا </h2>
+        <br> <br>
+        <div class="max-w-2xl mx-auto">
+          <div id="default-carousel" class="relative md:scale-150" data-carousel="static">
+              <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+                  <div class="carousel-item active  mt-36" data-carousel-item>
+                      <img src="Mrsool-01.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                  </div>
+                  <div class="carousel-item mt-36" data-carousel-item>
+                      <img src="HungerStation-01-3 (1).svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                  </div>
+              </div>
+              <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+                  <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                  <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+              </div>
               
-            </div>
           </div>
-          <div class="Protofolio-box">
-            <img class="bj"  src="HungerStation-01-3 (1).svg" alt="" />
-            <div class="Protofolio-layer">
-              <h4>هنقرستيشن</h4>
-              
-            </div>
-          </div>
-        </div>
+      </div>
+      
       </section>
     </div>
     <!-- <end Protofolio> -->
 
       <!-- <start content> -->
-    <div class="mm">
-      <section class="content" id="content">
-        <h2 class="hedeng">اتصل <span>بنا</span></h2>
+    <div class="mm m-0 p-0">
+      <section class="content m-0 p-0" id="content">
+        <h2 class="hedeng">اتصل بنا</h2>
         
-        <form class="h-auto grid grid-cols-1 gap-4 content-center"
+        <form class="grid grid-cols-1 gap-4 content-center"
           action="mailto:alsraqsada@gmail.com"
           method="post"
           enctype="text/plain"
@@ -205,28 +210,7 @@
           </div>
           <textarea name="message" placeholder="رسالتك" required></textarea>
           <input type="submit" value="ارسال" class="btn" />
-          <div class="-pb-10">
-          <ul class="grid grid-cols-1 gap-4">
-            <a href="#" class="text-4xl p-10"
-              ><i class="fa-solid fa-location-dot"></i
-              ><span class="text-white pr-3">موقعنا الشرقية – الدمام</span></a
-            >
-            <a href="997055400578" class="text-4xl p-10"
-              ><i class="fa-solid fa-people-roof"></i>
-              <span class="text-white pr-3">الادارة : ٠٥٥٤٠٠٥٧٨</span></a
-            >
-            <a href="997056373858" class="text-4xl p-10"
-              ><i class="fa-solid fa-headset"></i
-              ><span class="text-white pr-3">الدعم الفني : ٠٥٦٣٧٣٨٥٨</span></a
-            >
-            <a href="alsraqsada@gmail.com" class="text-4xl p-10"
-              ><i class="fa-solid fa-envelope"></i
-              ><span class="text-white pr-3"
-                >البريد: alsraqsada@gmail.com</span
-              ></a
-            >
-          </ul>
-        </div>
+          
         </form>
       </section>
     </div>
@@ -234,21 +218,44 @@
 
 
     <!-- <start footer> -->
-    <div class="">
-      <footer class="footer">
-        <div class="footer-text">
+    
+      <footer class="footer"><div class="footer-text"><a class="text-4xl bg-red-700 rounded-2xl" href="#home"><i class="bx bx-up-arrow-alt"></i></a><div class="mx-auto text-white px-5 py-10 flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 w-auto">
+        <div class="flex flex-col items-center justify-between md:space-y-2 md:items-start">
+        
           <p>Copyright &copy; 2023 by Codehal | All Rights Reserved.</p>
         </div>
         <div class="footer-icon-top">
-          <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+          
         </div>
+        <div class="flex row-start-2">
+          <ul class="flex space-x-4">
+            <a href="#" class=""
+              ><i class="fa-solid fa-location-dot"></i
+              ><span class="text-white pr-3">موقعنا الشرقية – الدمام</span></a
+            >
+            <a href="997055400578" class=""
+              ><i class="fa-solid fa-people-roof"></i>
+              <span class="text-white pr-3">الادارة : ٠٥٥٤٠٠٥٧٨</span></a
+            >
+            <a href="997056373858" class=""
+              ><i class="fa-solid fa-headset"></i
+              ><span class="text-white pr-3">الدعم الفني : ٠٥٦٣٧٣٨٥٨</span></a
+            >
+            <a href="alsraqsada@gmail.com" class=""
+              ><i class="fa-solid fa-envelope"></i
+              ><span class="text-white pr-3"
+                >البريد: alsraqsada@gmail.com</span
+              ></a
+            >
+          </ul>
+        </div></div></div>
       </footer>
-    </div>
+    
     <!-- <end footer> -->
 
       <!-- java script -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+        <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     <script src="mian1.js"></script>
   </body>
 </html>
