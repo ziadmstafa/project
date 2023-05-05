@@ -22,6 +22,7 @@ body {
     background : var(--beg--color);
     color: var(--text--color);
     background: #1f242d;
+
 }
 #meun {
    
@@ -41,6 +42,7 @@ section {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    
 }
 .header.sticky {
     border-bottom: .1rem solid rgba(0, 0, 0, .2) ;
@@ -550,4 +552,5 @@ background-size: cover;
     border-radius: 50%;
     z-index: 100;
   }
+  
   
