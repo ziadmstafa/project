@@ -33,11 +33,11 @@ window.onscroll = () => {
     });
     ScrollReveal().reveal('.home-content, .hedeng', { origin: 'top' });
     ScrollReveal().reveal('.home-img, .services-contenr , .Protofolio-box , .content form', { origin: 'bottom' });
-    ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-    ScrollReveal().reveal('.home-content p, .about-content .fwe', { origin: 'right' });
+    ScrollReveal().reveal('.home-content h1, .about-img .bj', { origin: 'left' });
+    ScrollReveal().reveal('.home-content p, .about-content .fwe .bj', { origin: 'right' });
 
 const typed = new Typed('.multiple-text', {
-  strings: ['شركه شحن'],
+  strings: ['موسسه صدأ الشرق للخدمات اللوجستية'],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 100,
