@@ -12,7 +12,7 @@
     --beg--color: #1f242d;
     --second--beg--color: #323946;
     --text--color: #fff;
- --mian--color: #0a5f5c;
+ --mian--color: #910909;
 }
 html {
   font-size:62.5% ;  
@@ -21,6 +21,7 @@ html {
 body {
     background : var(--beg--color);
     color: var(--text--color);
+    background: #1f242d;
 }
 #meun {
    
@@ -35,7 +36,7 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background-color: rgba(94, 91, 91, 0.671);
+    background: var(--beg--color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,11 +72,11 @@ section {
     justify-content: center;
     align-items: center;
     
-background-color: rgba(0, 0, 0, 0.445);
+
 position:initial;
 }
 .b {
-    background-image: url('11.jpg');
+   
     background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -153,11 +154,11 @@ span {
 
 }
 .bb {
-    background-image: url('12.png');
+    
     background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-background-color: rgba(0, 0, 0, 0.445);
+
 position:initial;
 }
 .about {
@@ -168,7 +169,7 @@ position:initial;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.445);
+    background: var(--second--beg--color);
 }
 .about-img img {
     width: 250vw;
@@ -192,13 +193,13 @@ line-height: 1.2;
 
 }
 .gg {
-    background-image: url('13.jpg');
+    
     background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }
 .services {
-    background-color: rgba(0, 0, 0, 0.445);
+    
 }
 .services h2 {
     margin-bottom: 5rem;
@@ -236,13 +237,13 @@ background-size: cover;
     font-weight: 700;
     }
     .ff {
-        background-image: url('14.jpg');
+        
         background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     }
 .Protofolio {
-    background-color: rgba(0, 0, 0, 0.445);
+    background: var(--second--beg--color);
 }
 .Protofolio h2 {
     margin-bottom: 4rem;
@@ -309,13 +310,10 @@ background-size: cover;
     color: var(--second--beg--color);
 }
 .mm { 
-    background:white;
-    background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+   
 }
 .content {
-    background-color: rgba(0, 0, 0, 0.445);
+   
 }
 .content form {
     max-width: 70rem;
@@ -377,7 +375,7 @@ background-size: cover;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background-color: rgba(94, 91, 91, 0.671);
+    background: var(--second--beg--color);
 }
 .footer-text p {
     font-size: 1.6rem;
