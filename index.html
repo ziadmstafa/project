@@ -20,24 +20,31 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <!-- <strt header>  -->
     <header class="header">
       <img src="1.png" width="50px" alt="" />
       <i class="bx bx-menu bx-rotate-180" id="meun"></i>
       <nav class="nav">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
-        <a href="#services">Services</a>
+        <a href="#services1">Services</a>
+        <a href="#services">Why us</a>
         <a href="#Protofolio">Our partners</a>
         <a href="#content">Content</a>
-        <a href="index1.html">Arabic</a>
+        <a href="index1.html">ع</a>
       </nav>
     </header>
+    <!-- <end header>  -->
+    
+    
+      
+      <!-- <strt home> -->
+      
     <div class="b">
       <section class="home" id="home">
         <div class="home-content">
           <h3>Home</h3>
-          <h1>East echo</h1>
+          <h1>Sada Al-Sharq</h1>
           <h3>and i'm a <span class="multiple-text"></span></h3>
           <p class="">Welcome to Sada Al-Sharq Logistics Services Company</p>
           <div class="socel-media">
@@ -53,14 +60,18 @@
         </div>
       </section>
     </div>
-    <div class="button">
-      <a
-        href=""
-        class="justify-self-end text-5xl p-2 bg-lime-700 rounded-full hover:bg-Slate-100"
-        style="z-index: 100"
-        ><i class="fa-brands fa-whatsapp"></i>
-      </a>
-    </div>
+    <!-- <end home> -->
+      <div class="button">
+        <a
+          href=""
+          class="flex justify-end md:p-2"
+          style="z-index: 100"
+          ><img width="15%" src="55.png" alt="">
+        </a>
+      </div>
+    
+
+    <!-- <strat about> -->
     <div class="bb">
       <section class="about" id="about">
         <div class="about-img">
@@ -77,12 +88,15 @@
             department adhere to safety and security regulations, as well as
             appoint, hire, and train new logistics services staff.
           </p>
-          <a href="" class="btn">Red Moore</a>
+          
         </div>
       </section>
-    </div>
+    <!-- <end about> -->
+
+
+      <!-- <start services> -->
     <div class="gg">
-      <section class="services" id="services">
+      <section class="services" id="services1">
         <h2 class="hedeng">our <span>services</span></h2>
         <div class="services-contenr">
           <div class="services-boix">
@@ -92,8 +106,26 @@
               This is a logistics service that operates on land transportation
               and includes local parcel activities.
             </p>
-            <a href="" class="btn">Red Moore</a>
+            
           </div>
+          
+          <div class="services-boix">
+            <i class="fa-solid fa-box-open"></i>
+            <h3>Our contracts</h3>
+            <p>
+              agreements include partnerships with delivery applications such as
+              HungerStation and MRSOOL.
+            </p>
+            
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="gg">
+      <section class="services" id="services">
+        <h2 class="hedeng">Why  <span>us</span></h2>
+        <div class="services-contenr">
+          
           <div class="services-boix">
             <div class="md:-m-10">
             <i class="fa-solid fa-truck-ramp-box"></i>
@@ -103,20 +135,15 @@
               to high standards and quality, in line with the aspirations of our
               customers. We are committed to responding quickly to their needs.
             </p>
-            <a href="" class="btn">Red Moore</a>
+            
           </div></div>
-          <div class="services-boix">
-            <i class="fa-solid fa-box-open"></i>
-            <h3>Our contracts</h3>
-            <p>
-              agreements include partnerships with delivery applications such as
-              HungerStation and MRSOOL.
-            </p>
-            <a href="" class="btn">Red Moore</a>
-          </div>
+          
         </div>
       </section>
     </div>
+    <!-- <end services> -->
+
+      <!-- <start Protofolio> -->
     <div class="ff">
       <section class="Protofolio" id="Protofolio">
         <h2 class="hedeng">Our<span> partners</span></h2>
@@ -138,17 +165,14 @@
         </div>
       </section>
     </div>
-    <div class="mm">
+    <!-- <end Protofolio> -->
+
+      <!-- <start content> -->
+    <div class="mm md:-mb-24">
       <section class="content" id="content">
         <h2 class="hedeng">content <span>Me</span></h2>
-        <div class="mt-24 mb-20 h-auto">
-          <ul class="h-auto grid grid-cols-1 gap-4">
-          <a href="#" class="text-4xl p-10"><i class="fa-solid fa-location-dot"></i><span class="text-white pl-3"> Our location is in Eastern Province - Dammam.</span></a>
-          <a href="997055400578" class="text-4xl p-10"><i class="fa-solid fa-people-roof"></i> <span class="text-white pl-3">Management: 055400578</span></a>
-          <a href="997056373858" class="text-4xl p-10"><i class="fa-solid fa-headset"></i><span class="text-white pl-3">Technical support: 056373858</span></a>
-          <a href="alsraqsada@gmail.com" class="text-4xl p-10"><i class="fa-solid fa-envelope"></i><span class="text-white pl-3">Email: alsraqsada@gmail.com"</span></a>
-        </ul></div>
-        <form action="mailto:alsraqsada@gmail.com" method="post" enctype="text/plain">
+        
+        <form class="grid grid-cols-1 gap-4 content-center" action="mailto:alsraqsada@gmail.com" method="post" enctype="text/plain">
           <div class="input-box">
             <input type="text" name="full_name" placeholder="Full name" required>
             <input type="email" name="email" placeholder="Email address" required>
@@ -159,9 +183,20 @@
           </div>
           <textarea name="message" placeholder="Your message" required></textarea>
           <input type="submit" value="Send" class="btn">
+          <div class="-pb-10">
+          <ul class="grid grid-cols-1 gap-4">
+          <a href="#" class="text-4xl p-8"><i class="fa-solid fa-location-dot"></i><span class="text-white pl-3"> Our location is in Eastern Province - Dammam.</span></a>
+          <a href="997055400578" class="text-4xl p-8"><i class="fa-solid fa-people-roof"></i> <span class="text-white pl-3">Management: 055400578</span></a>
+          <a href="997056373858" class="text-4xl p-8"><i class="fa-solid fa-headset"></i><span class="text-white pl-3">Technical support: 056373858</span></a>
+          <a href="alsraqsada@gmail.com" class="text-4xl p-8 -mb-10"><i class="fa-solid fa-envelope"></i><span class="text-white pl-3">Email: alsraqsada@gmail.com"</span></a>
+        </ul></div>
         </form>
       </section>
     </div>
+    <!-- <end content> -->
+
+
+    <!-- <start footer> -->
     <footer class="footer">
       <div class="footer-text">
         <p>Copyright &copy; 2023 by Codehal | All Rights Reserved.</p>
@@ -170,6 +205,9 @@
         <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
       </div>
     </footer>
+    <!-- <end footer> -->
+
+      <!-- java script -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     <script src="mian.js"></script>
