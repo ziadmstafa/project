@@ -40,8 +40,8 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
-    background: rgba(24, 23, 23, 0.699);
+    padding: 2rem;
+    background: var(--beg--color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -230,13 +230,6 @@ span {
     text-align: justify;
 }
 
-.gg {
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .services {
     height: 200px;
     margin-bottom: -350px;
@@ -284,34 +277,12 @@ span {
     font-weight: 700;
 }
 
-.ff {
-
-    height: auto;
-}
-
 .Protofolio {
     background: var(--second--beg--color);
-    height: 20vh;
-}
+    }
 
 .Protofolio h2 {
     margin-bottom: 4rem;
-}
-
-.Protofolio-contenr {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 2.5rem;
-}
-
-
-
-.mm {}
-
-.content {
-    margin: 0;
-    padding: 0;
 }
 
 .content form {
@@ -567,9 +538,7 @@ span {
     border-radius: 50%;
     z-index: 100;
 }
-.max-w-2xl {
-   transform: scale(2);
-}
+
 .carousel-item.active img {
     transform: translateX(50%) translateY(50%);
     object-fit: contain;
