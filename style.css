@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +24,7 @@ html {
 }
 
 body {
-    
+    font-family: 'Poppins',sans-serif ;
     max-width: 100%;
     overflow-x: hidden;
     background: #1f242d;
@@ -40,7 +42,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 2rem;
     background: rgba(24, 23, 23, 0.699);
     display: flex;
     justify-content: space-between;
@@ -296,15 +298,6 @@ line-height: 1.2;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
-}
-
-
-
-.mm {}
-
-.content {
-    margin: 0;
-    padding: 0;
 }
 
 .content form {
@@ -589,5 +582,3 @@ line-height: 1.2;
     animation-iteration-count: infinite;
     animation-name: carousel-slide;
 }
-  
-  
