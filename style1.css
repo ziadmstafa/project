@@ -41,7 +41,7 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem;
-    background: var(--beg--color);
+    background: rgba(24, 23, 23, 0.699);
     display: flex;
     justify-content: space-between;
     align-items: center;
